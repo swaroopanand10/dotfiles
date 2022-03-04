@@ -46,7 +46,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec urxvt
+bindsym $mod+Return exec alacritty
 
 # start firefox
 bindsym $alt+f exec firefox
@@ -86,7 +86,7 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
-# split in horizontal orientation
+# split in horizontal orientation( I probably changed the h with u)
 bindsym $mod+u split h
 
 # split in vertical orientation
@@ -192,6 +192,16 @@ bindsym $mod+r mode "resize"
 
 # Polybar launch script
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Display Wallpaper
+# exec_always feh --bg-fill /home/anand/Pictures/wallpapername
+
+# Keybinding for i3lock
+bindsym $mod+Shift+l
+
+# Window Compositor
+exec_always picom -f
+
 
 
 
