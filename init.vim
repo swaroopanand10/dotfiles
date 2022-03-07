@@ -1,13 +1,15 @@
-set relativenumber
-
+"keybinding for switching from I to N mode
 inoremap jj <Esc>
 
+
+"setting the numberings
+set relativenumber
 set number
 
 set laststatus=2
 
 set mouse=a
-set guifont=DroidSansMono\ Nerd\ Font\ 11
+" set guifont=Hack:h11
 let g:airline_powerline_fonts = 1
 nmap <F8> :TagbarToggle<CR>
 set clipboard=unnamedplus       " Copy/paste between vim and other programs.
@@ -59,5 +61,3 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-
-
