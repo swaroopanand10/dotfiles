@@ -69,7 +69,7 @@ hi PreProc guifg=#81f900 guibg=NONE guisp=NONE gui=NONE ctermfg=118 ctermbg=NONE
 hi Visual guifg=NONE guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
 hi MoreMsg guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi SpellCap guifg=#F9F9FF guibg=NONE guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
-hi VertSplit guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
+"hi VertSplit guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
 hi Exception guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi Keyword guifg=#19d1e5 guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Type guifg=#19d1e5 guibg=NONE guisp=NONE gui=bold ctermfg=38 ctermbg=NONE cterm=bold
@@ -101,8 +101,9 @@ highlight CursorLine guifg=NONE guibg=#1c1f24
 highlight CursorColumn guifg=NONE guibg=#1c1f24
 highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight StatusLineNC guifg=#72787E guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight TabLine guifg=#9DA1A4 guibg=#23272F guisp=NONE gui=NONE blend=NONE
-highlight TabLineFill guifg=NONE guibg=#1D2025 guisp=NONE gui=NONE blend=NONE
+
+highlight TabLine guifg=#9DA1A4 guibg=#111316 guisp=NONE gui=NONE blend=NONE
+highlight TabLineFill guifg=NONE guibg=#111316 guisp=NONE gui=NONE blend=NONE
 highlight TabLineSel guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight TabLineSeparator guifg=#141414 guibg=#1D2025 guisp=NONE gui=NONE blend=NONE
 highlight! link TabLineError Error
@@ -111,5 +112,6 @@ highlight! link TabLineInfo Info
 highlight! link TabLineSuccess Success
 highlight! link TabLineWarning Warning
 "highlight LineNr guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight VertSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
