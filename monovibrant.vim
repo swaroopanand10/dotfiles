@@ -97,13 +97,17 @@ highlight CursorIM guifg=NONE guibg=#85ADFF guisp=NONE gui=NONE blend=NONE
 highlight CursorLineNr guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight CursorRM guifg=NONE guibg=#FF6B6B guisp=NONE gui=NONE blend=NONE
 highlight CursorVM guifg=NONE guibg=#F2C88C guisp=NONE gui=NONE blend=NONE
-highlight CursorLine guifg=NONE guibg=#1c1f24
-highlight CursorColumn guifg=NONE guibg=#1c1f24
+highlight CursorLine guifg=NONE guibg=#1a1c21
+highlight CursorColumn guifg=NONE guibg=#1a1c21
+"#1c1f24, #141619 color choice for cursorline
 highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight StatusLineNC guifg=#72787E guibg=NONE guisp=NONE gui=NONE blend=NONE
 
-highlight TabLine guifg=#9DA1A4 guibg=#111316 guisp=NONE gui=NONE blend=NONE
-highlight TabLineFill guifg=NONE guibg=#111316 guisp=NONE gui=NONE blend=NONE
+"highlight TabLine guifg=#9DA1A4 guibg=#111316 guisp=NONE gui=NONE blend=NONE
+"highlight TabLineFill guifg=NONE guibg=#111316 guisp=NONE gui=NONE blend=NONE
+" other color for tab #17191d #1d2025
+highlight TabLine guifg=#9DA1A4 guibg=#141619 guisp=NONE gui=NONE blend=NONE
+highlight TabLineFill guifg=NONE guibg=#141619 guisp=NONE gui=NONE blend=NONE
 highlight TabLineSel guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight TabLineSeparator guifg=#141414 guibg=#1D2025 guisp=NONE gui=NONE blend=NONE
 highlight! link TabLineError Error
