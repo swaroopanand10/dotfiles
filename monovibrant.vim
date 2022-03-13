@@ -59,14 +59,14 @@ hi Number guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE c
 hi Boolean guifg=#19d1e5 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Operator guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
 hi WarningMsg guifg=#F9F9F9 guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
-hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
+"hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
 hi DiffDelete guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ModeMsg guifg=#F9F9F9 guibg=#192224 guisp=#192224 gui=bold ctermfg=15 ctermbg=235 cterm=bold
 hi Define guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Function guifg=#81f900 guibg=NONE guisp=NONE gui=NONE ctermfg=118 ctermbg=NONE cterm=bold
 hi FoldColumn guifg=#F9F9F9 guibg=NONE guisp=NONE gui=italic ctermfg=NONE  ctermbg=248 cterm=NONE
 hi PreProc guifg=#81f900 guibg=NONE guisp=NONE gui=NONE ctermfg=118 ctermbg=NONE cterm=NONE
-hi Visual guifg=NONE guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
+"hi Visual guifg=NONE guibg=#F9F9FF guisp=#F9F9FF gui=NONE ctermfg=235 ctermbg=189 cterm=NONE
 hi MoreMsg guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi SpellCap guifg=#F9F9FF guibg=NONE guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 "hi VertSplit guifg=#192224 guibg=#5E6C70 guisp=#5E6C70 gui=bold ctermfg=235 ctermbg=66 cterm=bold
@@ -117,5 +117,7 @@ highlight! link TabLineSuccess Success
 highlight! link TabLineWarning Warning
 "highlight LineNr guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight VertSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight Visual guifg=NONE guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
+highlight VisualNOS guifg=#FF6B6B guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
