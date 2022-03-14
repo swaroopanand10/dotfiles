@@ -14,7 +14,8 @@ let g:colors_name = 'monovibrant'
 " hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi Ignore -- no settings --
-hi Normal guifg=#ffffff guibg=Black guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
+"hi Normal guifg=#BAC1CE guibg=#141414 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
+hi Normal guifg=#BAC1CE guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
 "hi CTagsImport -- no settings --
 "hi CTagsGlobalVariable -- no settings --
 "hi EnumerationValue -- no settings --
@@ -119,5 +120,7 @@ highlight! link TabLineWarning Warning
 highlight VertSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Visual guifg=NONE guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
 highlight VisualNOS guifg=#FF6B6B guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
+hi NonText guifg=bg
+"highlight EndOfBuffer guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
