@@ -26,7 +26,8 @@ hi Normal guifg=#BAC1CE guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=
 "hi LocalVariable -- no settings --
 "hi CTagsClass -- no settings --
 "hi clear -- no settings --
-hi IncSearch guifg=#ffffff guibg=#19d1e5 guisp=#19d1e5 gui=NONE ctermfg=15 ctermbg=38 cterm=NONE
+" hi IncSearch guifg=#ffffff guibg=#19d1e5 guisp=#19d1e5 gui=NONE ctermfg=15 ctermbg=38 cterm=none
+highlight incsearch guifg=#5e81ac guibg=#cccccc guisp=#ECBE79 gui=underline blend=NONE
 hi WildMenu guifg=NONE guibg=NONE guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
 hi SignColumn guifg=#19D1E5 guibg=NONE guisp=#536991 gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
 hi SpecialComment guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
@@ -49,7 +50,8 @@ hi Special guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=13 ctermbg=NONE 
 hi LineNr guifg=#484a50 guibg=NONE guisp=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
 hi Label guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi PMenuSel guifg=#F9F9FF guibg=#FF3F4F guisp=#FF3F4F gui=NONE ctermfg=235 ctermbg=1 cterm=NONE
-hi Search guifg=#ffffff guibg=#19d1e5 guisp=#19d1e5 gui=NONE ctermfg=15 ctermbg=38 cterm=NONE
+" hi Search guifg=#ffffff guibg=#19d1e5 guisp=#19d1e5 gui=NONE ctermfg=15 ctermbg=38 cterm=NONE
+highlight Search guifg=#cccccc guibg=#613214 guisp=NONE gui=NONE blend=NONE
 hi Delimiter guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Statement guifg=#FF3F4F guibg=NONE guisp=NONE gui=italic ctermfg=13 ctermbg=NONE cterm=NONE
 hi SpellRare guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
@@ -101,12 +103,12 @@ highlight CursorVM guifg=NONE guibg=#F2C88C guisp=NONE gui=NONE blend=NONE
 highlight CursorLine guifg=NONE guibg=#1a1c21
 highlight CursorColumn guifg=NONE guibg=#1a1c21
 "#1c1f24, #141619 color choice for cursorline
-highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
-highlight StatusLineNC guifg=#72787E guibg=NONE guisp=NONE gui=NONE blend=NONE
+"highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
+"highlight StatusLineNC guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE (previous color option = #72787E)
 
 "highlight TabLine guifg=#9DA1A4 guibg=#111316 guisp=NONE gui=NONE blend=NONE
 "highlight TabLineFill guifg=NONE guibg=#111316 guisp=NONE gui=NONE blend=NONE
-" other color for tab #17191d #1d2025
+" other color for tab #17191d #1d2025 
 highlight TabLine guifg=#9DA1A4 guibg=#141619 guisp=NONE gui=NONE blend=NONE
 highlight TabLineFill guifg=NONE guibg=#141619 guisp=NONE gui=NONE blend=NONE
 highlight TabLineSel guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
@@ -118,9 +120,18 @@ highlight! link TabLineSuccess Success
 highlight! link TabLineWarning Warning
 "highlight LineNr guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight VertSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight HorizontalSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Visual guifg=NONE guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
 highlight VisualNOS guifg=#FF6B6B guibg=#3a3f45 guisp=NONE gui=NONE blend=NONE
 hi NonText guifg=bg
 "highlight EndOfBuffer guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceRead guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceText guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
+highlight LspReferenceWrite guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
+highlight! link LspDiagnosticsDefaultError Error
+highlight! link LspDiagnosticsDefaultHint Hint
+highlight! link LspDiagnosticsDefaultInformation Info
+highlight! link LspDiagnosticsDefaultWarning Warning
+highlight! link LspDiagnosticsUnderline Underlined
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
