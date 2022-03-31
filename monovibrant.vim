@@ -61,7 +61,8 @@ hi Float guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE c
 hi Number guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#19d1e5 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Operator guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
-hi WarningMsg guifg=#F9F9F9 guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
+" hi WarningMsg guifg=#F9F9F9 guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
+highlight Warning guifg=#DA8549 guibg=NONE guisp=NONE gui=NONE blend=NONE
 "hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
 hi DiffDelete guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
 hi ModeMsg guifg=#F9F9F9 guibg=#192224 guisp=#192224 gui=bold ctermfg=15 ctermbg=235 cterm=bold
@@ -85,7 +86,7 @@ hi Constant guifg=#ff4dff guibg=NONE guisp=NONE gui=NONE ctermfg=13 ctermbg=NONE
 hi Tag guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi String guifg=#ffda45 guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE cterm=NONE
 hi PMenuThumb guifg=NONE guibg=#a4a6a8 guisp=#a4a6a8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
-hi MatchParen guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
+hi MatchParen guifg=#52B0EF guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi Repeat guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi SpellBad guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi Directory guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
@@ -118,6 +119,7 @@ highlight! link TabLineHint Hint
 highlight! link TabLineInfo Info
 highlight! link TabLineSuccess Success
 highlight! link TabLineWarning Warning
+highlight! link WarningMsg Warning
 "highlight LineNr guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight VertSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight HorizontalSplit guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE
@@ -128,6 +130,7 @@ hi NonText guifg=bg
 highlight LspReferenceRead guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
 highlight LspReferenceText guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
 highlight LspReferenceWrite guifg=NONE guibg=#404244 guisp=NONE gui=NONE blend=NONE
+highlight LspDiagnosticsUnderlineWarning guifg=NONE guibg=NONE guisp=#DA8549 gui=underline blend=NONE
 highlight! link LspDiagnosticsDefaultError Error
 highlight! link LspDiagnosticsDefaultHint Hint
 highlight! link LspDiagnosticsDefaultInformation Info
