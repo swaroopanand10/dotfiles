@@ -123,6 +123,7 @@ highlight Visual guifg=NONE guibg=#252A31 guisp=NONE gui=NONE blend=NONE
 highlight VisualNOS guifg=#FF6B6B guibg=#252A31 guisp=NONE gui=NONE blend=NONE
 highlight Warning guifg=#DA8549 guibg=NONE guisp=NONE gui=NONE blend=NONE
 highlight Whitespace guifg=#23272F guibg=NONE guisp=NONE gui=NONE blend=NONE
+highlight	NvimTreeFolderIcon guifg=#52B0EF guibg=NONE guisp=NONE gui=bold blend=NONE 
 highlight! link CursorColumn CursorLine
 " highlight! link CursorLine Visual
 highlight! link Delimiter Normal
@@ -162,3 +163,4 @@ highlight! link TelescopePreviewLine Search
 highlight! link WarningMsg Warning
 highlight Normal ctermbg=Black
 highlight NonText ctermbg=Black
+
