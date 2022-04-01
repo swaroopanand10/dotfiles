@@ -29,7 +29,8 @@ hi Normal guifg=#BAC1CE guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=
 " hi IncSearch guifg=#ffffff guibg=#19d1e5 guisp=#19d1e5 gui=NONE ctermfg=15 ctermbg=38 cterm=none
 highlight incsearch guifg=#5e81ac guibg=#cccccc guisp=#ECBE79 gui=underline blend=NONE
 hi WildMenu guifg=NONE guibg=NONE guisp=#A1A6A8 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
-hi SignColumn guifg=#19D1E5 guibg=NONE guisp=#536991 gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
+" hi SignColumn guifg=#19D1E5 guibg=NONE guisp=#536991 gui=NONE ctermfg=235 ctermbg=NONE cterm=NONE
+highlight SignColumn guifg=NONE guibg=#141414 guisp=NONE gui=NONE blend=NONE
 hi SpecialComment guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Typedef guifg=#19D1E5 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
 hi Title guifg=#F9F9FF guibg=NONE guisp=#192224 gui=bold ctermfg=189 ctermbg=235 cterm=bold
@@ -44,7 +45,8 @@ hi PMenuSbar guifg=NONE guibg=#848688 guisp=#848688 gui=NONE ctermfg=NONE ctermb
 hi Identifier guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=13 ctermbg=NONE cterm=NONE
 hi SpecialChar guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Conditional guifg=#FF3F4F guibg=NONE guisp=NONE gui=italic ctermfg=13 ctermbg=NONE cterm=NONE
-hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+" hi StorageClass guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+highlight StorageClass guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 hi Todo guifg=#ffffff guibg=#FF3F4F guisp=#FF3F4F gui=NONE ctermfg=15 ctermbg=13 cterm=NONE
 hi Special guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=13 ctermbg=NONE cterm=NONE
 hi LineNr guifg=#484a50 guibg=NONE guisp=NONE gui=NONE ctermfg=239 ctermbg=NONE cterm=NONE
@@ -89,8 +91,11 @@ hi PMenuThumb guifg=NONE guibg=#a4a6a8 guisp=#a4a6a8 gui=NONE ctermfg=NONE cterm
 hi MatchParen guifg=#52B0EF guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi Repeat guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=1 ctermbg=NONE cterm=bold
 hi SpellBad guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
-hi Directory guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
-hi Structure guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+" hi Directory guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+highlight Directory guifg=#52B0EF guibg=NONE guisp=NONE gui=bold blend=NONE
+highlight	NvimTreeFolderIcon guifg=#52B0EF guibg=NONE guisp=NONE gui=bold blend=NONE 
+" hi Structure guifg=#536991 guibg=NONE guisp=NONE gui=bold ctermfg=60 ctermbg=NONE cterm=bold
+highlight Structure guifg=#52B0EF guibg=NONE guisp=NONE gui=NONE blend=NONE
 hi Macro guifg=#FF3F4F guibg=NONE guisp=NONE gui=NONE ctermfg=1 ctermbg=NONE cterm=NONE
 hi Underlined guifg=#F9F9FF guibg=#192224 guisp=#192224 gui=underline ctermfg=189 ctermbg=235 cterm=underline
 hi DiffAdd guifg=#81F900 guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
