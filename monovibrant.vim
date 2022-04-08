@@ -15,7 +15,8 @@ let g:colors_name = 'monovibrant'
 "hi CTagsGlobalConstant -- no settings --
 "hi Ignore -- no settings --
 "hi Normal guifg=#BAC1CE guibg=#141414 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
-hi Normal guifg=#BAC1CE guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
+" hi Normal guifg=#BAC1CE guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
+hi Normal guifg=#52b0ef guibg=#000000 guisp=#192224 gui=NONE ctermfg=15 ctermbg=Black cterm=NONE
 "hi CTagsImport -- no settings --
 "hi CTagsGlobalVariable -- no settings --
 "hi EnumerationValue -- no settings --
