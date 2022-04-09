@@ -63,7 +63,7 @@ hi Character guifg=#ffda45 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NO
 hi Float guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Number guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#19d1e5 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
-hi Operator guifg=#FF3F4F guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
+hi Operator guifg=#51afef guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
 " hi WarningMsg guifg=#F9F9F9 guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 highlight Warning guifg=#DA8549 guibg=NONE guisp=NONE gui=NONE blend=NONE
 "hi VisualNOS guifg=#192224 guibg=#F9F9FF guisp=#F9F9FF gui=underline ctermfg=235 ctermbg=189 cterm=underline
@@ -110,8 +110,9 @@ highlight CursorVM guifg=NONE guibg=#F2C88C guisp=NONE gui=NONE blend=NONE
 highlight CursorLine guifg=NONE guibg=#1a1c21
 highlight CursorColumn guifg=NONE guibg=#1a1c21
 "#1c1f24, #141619 color choice for cursorline
-"highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
-"highlight StatusLineNC guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE (previous color option = #72787E)
+" highlight StatusLine guifg=#B0B0B0 guibg=NONE guisp=NONE gui=NONE blend=NONE
+" highlight StatusLineNC guifg=#3F444A guibg=NONE guisp=NONE gui=NONE blend=NONE 
+" (previous color option = #72787E)
 
 "highlight TabLine guifg=#9DA1A4 guibg=#111316 guisp=NONE gui=NONE blend=NONE
 "highlight TabLineFill guifg=NONE guibg=#111316 guisp=NONE gui=NONE blend=NONE
