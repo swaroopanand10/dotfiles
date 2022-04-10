@@ -63,6 +63,7 @@ hi Character guifg=#ffda45 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NO
 hi Float guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
 hi Number guifg=#FF4DFF guibg=NONE guisp=NONE gui=NONE ctermfg=38 ctermbg=NONE cterm=NONE
 hi Boolean guifg=#19d1e5 guibg=NONE guisp=NONE gui=NONE ctermfg=248 ctermbg=NONE cterm=NONE
+" hi Operator guifg=#D16D9E guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
 hi Operator guifg=#51afef guibg=NONE guisp=NONE gui=bold ctermfg=258 ctermbg=NONE cterm=bold
 " hi WarningMsg guifg=#F9F9F9 guibg=#FFFF00 guisp=#FFFF00 gui=NONE ctermfg=248 ctermbg=88 cterm=NONE
 highlight Warning guifg=#DA8549 guibg=NONE guisp=NONE gui=NONE blend=NONE
